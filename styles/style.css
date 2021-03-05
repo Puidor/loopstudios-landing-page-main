@@ -159,4 +159,72 @@ header .header-title:hover {
 .creations-card {
   display: flex;
   flex-direction: column;
+
+  position: relative;
+
+  margin-bottom: 3rem;
+}
+
+.creations-card img {
+  display: block;
+}
+
+.creations-card h1 {
+  font-family: "Josefin Sans", sans-serif;
+  text-transform: uppercase;
+  /* font-size: larger; */
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  align-items: flex-end;
+
+  width: 100%;
+  height: 100%;
+
+  padding: 3rem;
+
+  color: var(--White);
+
+  background: rgba(0, 0, 0, 0.4);
+
+  cursor: pointer;
+  transition: background 0.24s;
+}
+
+.creations-card h1:hover {
+  background: rgba(0, 0, 0, 0);
+}
+
+/*FOOTER =============================== */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10rem;
+
+  padding: 5rem 15rem;
+
+  background-color: var(--Black);
+  color: var(--White);
+}
+
+.footer-menu ul {
+  list-style-type: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-menu ul li {
+  margin-top: 1rem;
+  margin-right: 2rem;
+  cursor: pointer;
+}
+
+.footer-menu ul li:hover {
+  opacity: 0.7;
 }
