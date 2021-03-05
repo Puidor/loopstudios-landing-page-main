@@ -1,0 +1,97 @@
+/*GLOBAL =============================== */
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Black: hsl(0, 0%, 0%);
+  --Dark-Gray: hsl(0, 0%, 55%);
+  --Very-Dark-Gray: hsl(0, 0%, 41%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.5rem;
+}
+
+/*Header =============================== */
+header {
+  background-image: url(../images/desktop/image-hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  height: 50rem;
+  padding: 5rem 15rem;
+
+  color: var(--White);
+  font-family: "Alata", sans-serif;
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-top ul {
+  list-style-type: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-top ul li {
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.header-top ul li:hover {
+  opacity: 0.7;
+}
+
+header .header-title {
+  font-family: "Josefin Sans", sans-serif;
+  text-transform: uppercase;
+
+  margin-top: 5rem;
+
+  border: 1px solid white;
+  width: 35rem;
+  padding: 3rem;
+}
+
+/*Main Principal =============================== */
+.main-principal {
+  display: flex;
+
+  width: 80%;
+  margin: auto;
+  margin-top: 15rem;
+}
+
+.principal-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid black;
+}
+
+.principal-card h1 {
+  font-family: "Josefin Sans", sans-serif;
+  text-transform: uppercase;
+}
+
+.principal-card p {
+  color: var(--Dark-Gray);
+  font-family: "Alata", sans-serif;
+}
