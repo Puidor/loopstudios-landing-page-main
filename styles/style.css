@@ -110,3 +110,53 @@ header .header-title:hover {
   color: var(--Dark-Gray);
   font-family: "Alata", sans-serif;
 }
+
+/*Main Creations =============================== */
+.main-creations {
+  width: 80%;
+  margin: auto;
+  margin-top: 15rem;
+}
+.creations-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.creations-title h1 {
+  font-family: "Josefin Sans", sans-serif;
+  text-transform: uppercase;
+}
+
+.creations-title a {
+  color: var(--Black);
+  text-decoration: none;
+  font-family: "Josefin Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: 300;
+
+  border: 1px solid var(--Very-Dark-Gray);
+  padding: 1rem 4rem 0.9rem 4rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.creations-title a:hover {
+  opacity: 0.7;
+}
+
+.creations-all-cards {
+  margin-top: 8rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.creations-card {
+  display: flex;
+  flex-direction: column;
+}
