@@ -1,0 +1,122 @@
+/*============================================== */
+/*==============MOBILE VERSION================== */
+/*============================================== */
+@media (max-width: 1020px) {
+  /*Toogle MENU =============================== */
+  .header-menu.active {
+    display: flex;
+  }
+  .header-menu {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 4rem;
+  }
+  .header-top {
+    flex-direction: column;
+
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .header-top ul {
+    flex-direction: column;
+  }
+  /*Header =============================== */
+  header {
+    padding: 5rem;
+    height: initial;
+  }
+  .header-menu {
+    display: none;
+  }
+  .toggle-button {
+    position: absolute;
+    top: 5rem;
+    right: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 4rem;
+    height: 3rem;
+  }
+
+  .toggle-button .bar {
+    height: 0.5rem;
+    width: 100%;
+    background-color: var(--White);
+    border-radius: 1rem;
+  }
+  header .header-title {
+    width: initial;
+  }
+  /*Main Principal =============================== */
+  .main-principal {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    margin-top: 15rem;
+  }
+  .principal.right {
+    margin: 0;
+  }
+  .principal-card h1,
+  .principal-card p {
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  /*Main Creations =============================== */
+  .main-creations {
+    margin-top: 5rem;
+  }
+  .creations-title {
+    justify-content: center;
+    grid-column: 1/5;
+    order: 0;
+  }
+  .creations-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    grid-column: 1/5;
+    order: 2;
+  }
+  .creations-all-cards {
+    flex-direction: column;
+    margin-top: 2rem;
+
+    grid-column: 1/5;
+    order: 1;
+  }
+
+  .creations-card {
+    width: 100%;
+    height: 20rem;
+  }
+
+  .creations-card img {
+    width: 100%;
+    height: 20rem;
+
+    object-fit: cover;
+    object-position: 0 0;
+  }
+  /*FOOTER =============================== */
+  footer {
+    flex-direction: column;
+  }
+
+  .footer-menu ul {
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+
+  .footer-social {
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+  }
+}

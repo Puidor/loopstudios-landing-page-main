@@ -116,11 +116,15 @@ header .header-title:hover {
   width: 80%;
   margin: auto;
   margin-top: 15rem;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
 }
 .creations-title {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  grid-column: 1/3;
 }
 
 .creations-title h1 {
@@ -128,7 +132,10 @@ header .header-title:hover {
   text-transform: uppercase;
 }
 
-.creations-title a {
+.creations-button {
+  grid-column: 4/5;
+}
+.creations-button a {
   color: var(--Black);
   text-decoration: none;
   font-family: "Josefin Sans", sans-serif;
@@ -143,7 +150,7 @@ header .header-title:hover {
   justify-content: center;
 }
 
-.creations-title a:hover {
+.creations-button a:hover {
   opacity: 0.7;
 }
 
@@ -154,6 +161,8 @@ header .header-title:hover {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+
+  grid-column: 1/5;
 }
 
 .creations-card {
@@ -172,7 +181,6 @@ header .header-title:hover {
 .creations-card h1 {
   font-family: "Josefin Sans", sans-serif;
   text-transform: uppercase;
-  /* font-size: larger; */
 
   position: absolute;
   top: 0;
